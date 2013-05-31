@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btnbarcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="34dp"
+        android:onClick="onClick"
+        android:text="Click to scan" />
+
+    <TextView
+        android:id="@+id/textV_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnbarcode"
+        android:layout_marginTop="70dp"
+        android:autoLink="web"
+        android:linksClickable="true" />
+
+    <TextView
+        android:id="@+id/textV_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnbarcode"
+        android:layout_marginTop="27dp"
+        android:autoLink="web"
+        android:linksClickable="true" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textV_url"
+        android:layout_marginTop="61dp"
+        android:text="Play" />
+
+    <Button
+        android:id="@+id/bntsms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnPlay"
+        android:text="Send as SMS" />
+    
+    <Button
+        android:id="@+id/btnAddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_below="@+id/bntsms"
+        android:layout_centerInParent="true"
+        android:onClick="onClick_AddToCart"
+        android:text="Add To Cart" />
+
+    <TextView
+        android:id="@+id/txtLoginStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Not Logged In" />
+
+</RelativeLayout>

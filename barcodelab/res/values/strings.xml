@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">barcodelab</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">AdTouch</string>
+    <string name="title_activity_sms">SMS</string>
+    <string name="title_activity_multimedia">Multimedia</string>
+    <string name="title_activity_pdfreader"></string>
+    <string name="title_activity_restservices"/>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+</resources>
